@@ -5,5 +5,5 @@ Format of the data:
 
 FLOAT LITTLE ENDIAN, 512 projections, 512 rays per projection
 EXPOSURE TIME = 1 second
-SOURCE_INTENSITY = 1e5 second^{-1}
-SCATTER_INTENSITY = 500 second^{-1}
+SOURCE_INTENSITY = 5 * 1e2 second^{-1}
+SCATTER_INTENSITY = 1e2 second^{-1}
