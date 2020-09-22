@@ -1,0 +1,9 @@
+Binaries with photon counts of COVID-19 images. Generated from projections ../covid-projections-no-noise
+Projections were normalized to set max{projections} = 1.0, registration probabilities were set to: exp(-normalized_projections).
+
+Format of the data: 
+
+FLOAT LITTLE ENDIAN, 512 projections, 512 rays per projection
+EXPOSURE TIME = 1 second
+SOURCE_INTENSITY = 1e5 second^{-1}
+SCATTER_INTENSITY = 500 second^{-1}
